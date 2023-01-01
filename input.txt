@@ -1,0 +1,15 @@
+Car
+- idNumber_; int
+- category_: char
+- model_: string
+- doors_: int
+- fuelType_: char
+- gearType_: char
+- pricePrDay_: double
+- isAvailable_: bool
++ getCategory(): char
++ getIsAvailable(): bool
++ setIsAvailable(bool): void
++ getIdNumber(): int
++ setIdNumber(int): void
++ print(): void
