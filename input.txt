@@ -1,15 +1,11 @@
-Car
-- idNumber_; int
-- category_: char
-- model_: string
-- doors_: int
-- fuelType_: char
-- gearType_: char
-- pricePrDay_: double
-- isAvailable_: bool
-+ getCategory(): char
-+ getIsAvailable(): bool
-+ setIsAvailable(bool): void
-+ getIdNumber(): int
-+ setIdNumber(int): void
-+ print(): void
+Event
+- eventName_: string
+- nbOfAvailableTicketsA_: int
+- priceTicketA_: int
+- nbOfAvailableTicketsB_:int 
+- priceTicketB_: int
+- nbOfAvailableTicketsC_:int
+- priceTicketC_: int
++ chooseCategory( ): char
++ chooseNumberOfTickets(category: char): int
++ reserveTickets(category: char, number: int): void

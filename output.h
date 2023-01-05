@@ -1,25 +1,24 @@
 #pragma once
 
+#pragma once
+
 #include <string>
+
 using namespace std;
 
-class Car
+class Event
 {
 private:
-	int idNumber_;
-	char category_;
-	string model_;
-	int doors_;
-	char fuelType_;
-	char gearType_;
-	double pricePrDay_;
-	bool isAvailable_;
+	string eventName_;
+	int nbOfAvailableTicketsA_;
+	int priceTicketA_;
+	int nbOfAvailableTicketsB_;
+	int priceTicketB_;
+	int nbOfAvailableTicketsC_;
+	int priceTicketC_;
 
-private:
-	char getCategory();
-	bool getIsAvailable();
-	void setIsAvailable(bool);
-	int getIdNumber();
-	void setIdNumber(int);
-	void print();
+public:
+	char chooseCategory()(chooseCategory(, ));
+	int chooseNumberOfTickets(char),category);
+	void reserveTickets(char, category);
 };
